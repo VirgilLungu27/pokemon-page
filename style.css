@@ -3,14 +3,10 @@
     left: 30%;
     position: absolute;
     font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-}
-
-.pokemon div {
 }
 
 .pokemon .img {
+    font-family: 'Ubuntu';
     display: flex;
     align-items: baseline;
 }
@@ -20,6 +16,13 @@
     max-width: 200px;
     max-height: 170px;
 }
+
+.pokemon > .stats {
+    top: 33%;
+    position: relative;
+}
+
+
 
 footer {
     top: 90%;
