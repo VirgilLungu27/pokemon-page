@@ -1,16 +1,21 @@
 .pokemon {
-    display: flex;
-    flex-direction: column;
     top: 25%;
     left: 30%;
     position: absolute;
+    font-family: sans-serif;
     align-items: space-between;
 }
 
 .pokemon p {
-    display: flex;
     width: 600px;
-    justify-content: space-between;
+}
+
+.statbar {
+    background-color: lightslategray;
+    border: 1px solid grey;
+    width: calc(100% * 45/255);
+    height: 20px;
+    justify-content: center;
 }
 
 footer {
