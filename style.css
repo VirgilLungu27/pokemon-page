@@ -1,5 +1,5 @@
 .pokemon {
-    top: 15%;
+    top: 12%;
     left: 30%;
     position: absolute;
     font-family: sans-serif;
@@ -25,6 +25,15 @@
 .pokemon > .stats {
     top: 33%;
     position: relative;
+}
+
+.ability h3, .ability h4 {
+    text-align: center;
+    font-family: serif;
+}
+
+.ability h4 {
+    font-weight: 500;
 }
 
 
