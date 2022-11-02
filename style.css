@@ -6,17 +6,6 @@
     align-items: space-between;
 }
 
-.pokemon p {
-    width: 600px;
-}
-
-.statbar {
-    background-color: lightslategray;
-    border: 1px solid grey;
-    width: calc(100% * 45/255);
-    height: 20px;
-    justify-content: center;
-}
 
 footer {
     top: 80%;
