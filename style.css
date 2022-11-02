@@ -1,5 +1,5 @@
 .pokemon {
-    top: 20%;
+    top: 15%;
     left: 30%;
     position: absolute;
     font-family: sans-serif;
@@ -7,9 +7,22 @@
     flex-direction: column;
 }
 
+.pokemon div {
+}
+
+.pokemon .img {
+    display: flex;
+    align-items: baseline;
+}
+
+
+.pokemon .img > img {
+    max-width: 200px;
+    max-height: 170px;
+}
 
 footer {
-    top: 80%;
-    left: 45%;
+    top: 90%;
+    left: 85%;
     position: absolute;
 }
