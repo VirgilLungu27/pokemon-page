@@ -1,0 +1,7 @@
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    top: 25%;
+    left: 30%;
+    position: absolute;
+}
