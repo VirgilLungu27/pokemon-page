@@ -4,4 +4,17 @@
     top: 25%;
     left: 30%;
     position: absolute;
+    align-items: space-between;
+}
+
+.pokemon p {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+footer {
+    top: 80%;
+    left: 45%;
+    position: absolute;
 }
