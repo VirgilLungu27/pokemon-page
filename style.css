@@ -1,9 +1,10 @@
 .pokemon {
-    top: 25%;
+    top: 20%;
     left: 30%;
     position: absolute;
     font-family: sans-serif;
-    align-items: space-between;
+    display: flex;
+    flex-direction: column;
 }
 
 
