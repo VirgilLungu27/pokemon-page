@@ -1,14 +1,24 @@
 .pokemon {
-    top: 12%;
+    top: 11%;
     left: 30%;
     position: absolute;
     font-family: sans-serif;
     background-color: aliceblue;
     border: 1px solid lightblue;
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     width: fit-content;
 }
+
+.pokemon .typing {
+    border-radius: 5px;
+    display: grid;
+}
+
+.pokemon .typing table {
+    text-align: center;
+}
+
 
 .pokemon .img {
     font-family: 'Ubuntu';
