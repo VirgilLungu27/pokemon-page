@@ -8,7 +8,10 @@
     background-color: aliceblue;
     border: 1px solid lightblue;
     border-radius: 10px;
-    padding: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
     width: fit-content;
 }
 
@@ -44,7 +47,6 @@
 }
 
 .ability h3, .ability h4 {
-    text-align: center;
     font-family: sans-serif;
     font-size: 15px;
 }
@@ -52,6 +54,33 @@
 .ability h4 {
     font-weight: 500;
 }
+
+.hidden {
+    display: inline-block;
+    max-height: 50px;
+}
+
+.hidden, .lc {
+    margin-top: -10px;
+}
+
+.lc {
+    visibility: hidden;
+    width: fit-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    margin-left: 8px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.hidden:hover .lc {
+    visibility: visible;
+}
+
 
 .nextpoke {
     top: 45%;
