@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Work+Sans&display=swap');
 
 .pokemon {
-    top: 7%;
-    left: 40%;
+    top: 4%;
+    left: 33%;
     position: absolute;
     font-family: 'Poppins', sans-serif;
     background-color: aliceblue;
@@ -81,6 +81,25 @@
     opacity: 1;
     transition: 0.3s opacity;
 }
+
+.moves {
+    top: 77%;
+    left: 52%;
+    position: absolute;
+    max-width: fit-content;
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+
+.signature-moves table tr td {
+    display: grid;
+    text-align: start;
+    font-size: 18px;
+}
+
+
+
+
 
 
 .nextpoke {
