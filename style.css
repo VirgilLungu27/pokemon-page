@@ -65,7 +65,7 @@
 }
 
 .lc {
-    visibility: hidden;
+    opacity: 0;
     width: fit-content;
     background-color: black;
     color: #fff;
@@ -78,7 +78,8 @@
 }
 
 .hidden:hover .lc {
-    visibility: visible;
+    opacity: 1;
+    transition: 0.3s opacity;
 }
 
 
