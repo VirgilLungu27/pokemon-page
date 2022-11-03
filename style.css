@@ -82,24 +82,27 @@
     transition: 0.3s opacity;
 }
 
-.moves {
+.signature-moves, .recommended-moves {
     top: 77%;
-    left: 52%;
     position: absolute;
     max-width: fit-content;
     font-family: 'Poppins', sans-serif;
     background-color: aliceblue;
 }
 
-.signature-moves table tr td {
+.signature-moves {
+    left: 52%;
+}
+
+.recommended-moves {
+    left: 64%;
+}
+
+.signature-moves table tr td, .recommended-moves table tr td {
     display: grid;
     text-align: start;
     font-size: 18px;
 }
-
-
-
-
 
 
 .nextpoke {
