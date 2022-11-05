@@ -139,6 +139,11 @@ body {
     text-decoration: none;
 }
 
+.pokedex:hover {
+    transform: scaleX(1.2);
+    transition: 0.3s transform;
+}
+
 
 .nextpoke {
     top: 45%;
