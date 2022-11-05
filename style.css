@@ -121,27 +121,35 @@ body {
     font-size: 18px;
 }
 
-.pokedex {
+.pokedex, .moveslist {
     display: inline-block;
     left: 98%;
-    top: 30%;
     width: 200px;
     overflow-x: hidden;
     position: absolute;
-    background-color: azure;
     padding: 5px;
     border-radius: 3px;
     border-left: 1px solid black;
     font-size: 28px;
 }
 
-.pokedex a {
+.pokedex a, .moveslist a {
     text-decoration: none;
 }
 
-.pokedex:hover {
+.pokedex:hover, .moveslist:hover {
     transform: scaleX(1.2);
     transition: 0.3s transform;
+}
+
+.pokedex {
+    top: 30%;
+    background-color: azure;
+}
+
+.moveslist {
+    top: 55%;
+    background-color: lemonchiffon;
 }
 
 
