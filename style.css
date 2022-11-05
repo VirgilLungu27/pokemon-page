@@ -106,22 +106,24 @@ body {
     max-width: fit-content;
     font-family: 'Poppins', sans-serif;
     background-color: aliceblue;
-    padding: 2px;
-    border-radius: 5px;
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid blueviolet;
 }
 
 .signature-moves {
-    left: 54%;
+    left: 22%;
 }
 
 .recommended-moves {
-    left: 66%;
+    left: 56%;
 }
 
 .signature-moves table tr td, .recommended-moves table tr td {
     display: grid;
-    text-align: start;
-    font-size: 18px;
+    text-align: center;
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .pokedex, .moveslist {
