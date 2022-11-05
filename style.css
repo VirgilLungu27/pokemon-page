@@ -154,24 +154,33 @@ body {
     background-color: lemonchiffon;
 }
 
-.nextpoke {
-    top: 42%;
-    left: 68%;
+
+.nextpoke, .lastpoke {
     font-family: 'Poppins', sans-serif;
     position: absolute;
 }
 
-.nextpoke a {
+.lastpoke {
+    top: 42%;
+    left: 12%;
+}
+
+.nextpoke {
+    top: 42%;
+    left: 68%;
+}
+
+.lastpoke a, .nextpoke a {
     text-decoration: none;
 }
 
-.nextpoke h3 {
+.lastpoke h3, .nextpoke h3 {
     font-size: 19px;
     font-weight: 700;
     border-bottom: 1px solid black;
 }
 
-.nextpoke h4 {
+.lastpoke h4, .nextpoke h4 {
     text-align: center;
     margin-top: -15px;
 }
