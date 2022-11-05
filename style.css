@@ -121,6 +121,13 @@ body {
     font-size: 18px;
 }
 
+.pokedex {
+    left: 92%;
+    top: 30%;
+    position: absolute;
+}
+
+
 
 .nextpoke {
     top: 45%;
