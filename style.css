@@ -40,6 +40,16 @@ body {
     border-radius: 5px;
 }
 
+.pokemon .typing table tr td a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.pokemon .typing table tr td a:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
 .pokemon .img {
     font-family: 'Ubuntu';
     display: flex;
@@ -131,6 +141,7 @@ body {
     border-radius: 3px;
     border-left: 1px solid black;
     font-size: 28px;
+    font-weight: 800;
 }
 
 .pokedex a, .moveslist a {
