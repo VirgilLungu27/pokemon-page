@@ -198,6 +198,12 @@ body {
     margin-top: -17px;
 }
 
+.lastpoke h3:hover, .nextpoke h3:hover {
+    transform: scale(1.05);
+    transition: 0.2s transform;
+}
+
+
 footer {
     top: 92%;
     left: 92%;
