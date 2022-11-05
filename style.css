@@ -2,6 +2,7 @@
 
 body {
     background-color: rgba(255, 255, 0, 0.117);
+    overflow: hidden;
 }
 
 .pokelogo {
@@ -125,7 +126,6 @@ body {
     display: inline-block;
     left: 98%;
     width: 200px;
-    overflow-x: hidden;
     position: absolute;
     padding: 5px;
     border-radius: 3px;
@@ -151,7 +151,6 @@ body {
     top: 55%;
     background-color: lemonchiffon;
 }
-
 
 .nextpoke {
     top: 45%;
