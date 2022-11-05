@@ -161,6 +161,10 @@ body {
     position: absolute;
 }
 
+.nextpoke a {
+    text-decoration: none;
+}
+
 .nextpoke h3 {
     font-size: 19px;
     font-weight: 700;
@@ -173,7 +177,7 @@ body {
 }
 
 footer {
-    top: 91%;
+    top: 92%;
     left: 92%;
     position: absolute;
 }
