@@ -122,11 +122,22 @@ body {
 }
 
 .pokedex {
-    left: 92%;
+    display: inline-block;
+    left: 98%;
     top: 30%;
+    width: 200px;
+    overflow-x: hidden;
     position: absolute;
+    background-color: azure;
+    padding: 5px;
+    border-radius: 3px;
+    border-left: 1px solid black;
+    font-size: 28px;
 }
 
+.pokedex a {
+    text-decoration: none;
+}
 
 
 .nextpoke {
