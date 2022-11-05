@@ -167,6 +167,10 @@ body {
 .nextpoke, .lastpoke {
     font-family: 'Poppins', sans-serif;
     position: absolute;
+    background-color: palevioletred;
+    padding: 12px;
+    border-radius: 12px;
+    color: azure;
 }
 
 .lastpoke {
@@ -181,17 +185,17 @@ body {
 
 .lastpoke a, .nextpoke a {
     text-decoration: none;
+    color: white;
 }
 
 .lastpoke h3, .nextpoke h3 {
-    font-size: 19px;
-    font-weight: 700;
+    font-size: 20px;
     border-bottom: 1px solid black;
 }
 
 .lastpoke h4, .nextpoke h4 {
     text-align: center;
-    margin-top: -15px;
+    margin-top: -17px;
 }
 
 footer {
