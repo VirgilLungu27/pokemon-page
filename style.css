@@ -90,7 +90,7 @@ body {
     margin-top: -25px;
 }
 
-.lc, .maxhp {
+.lc, .maxhp, .maxatk, .maxdef, .maxspa, .maxspd, .maxspe{
     opacity: 0;
     width: fit-content;
     background-color: black;
@@ -108,16 +108,15 @@ body {
     padding: 5px 0;
 }
 
-.maxhp {
+.maxhp, .maxatk, .maxdef, .maxspa, .maxspd, .maxspe {
     margin-top: 18px;
-    margin-left: 50px;
+    margin-left: 20%;
     padding: 5px;
     font-size: 15px;
 }
 
-
-
-.hidden h4:hover .lc, .hp h4:hover .maxhp {
+.hidden h4:hover .lc, .hp h4:hover .maxhp, .attack h4:hover .maxatk, .defense h4:hover .maxdef, .specialattack h4:hover .maxspa, 
+.specialdefense h4:hover .maxspd, .speed h4:hover .maxspe {
     opacity: 1;
     transition: 0.3s opacity;
 }
