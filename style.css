@@ -80,31 +80,48 @@ body {
     font-weight: 500;
 }
 
+.ability a {
+    text-decoration: none;
+}
+
 .hidden {
     display: inline-block;
     max-height: 50px;
     margin-top: -25px;
 }
 
-.lc {
+.lc, .maxhp {
     opacity: 0;
     width: fit-content;
     background-color: black;
     color: #fff;
     text-align: center;
-    padding: 5px 0;
-    margin-left: 8px;
     border-radius: 6px;
-    font-size: 14px;
     position: absolute;
     z-index: 1;
-    margin-top: -12px;
 }
 
-.hidden h4:hover .lc {
+.lc {
+    margin-left: 8px;
+    font-size: 14px;
+    margin-top: -12px;
+    padding: 5px 0;
+}
+
+.maxhp {
+    margin-top: 18px;
+    margin-left: 50px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+
+.hidden h4:hover .lc, .hp h4:hover .maxhp {
     opacity: 1;
     transition: 0.3s opacity;
 }
+
 
 .signature-moves, .recommended-moves {
     top: 77%;
