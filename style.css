@@ -110,7 +110,6 @@ body {
 
 .maxhp, .maxatk, .maxdef, .maxspa, .maxspd, .maxspe {
     margin-top: 18px;
-    margin-left: 20%;
     padding: 5px;
     font-size: 15px;
 }
@@ -230,3 +229,5 @@ footer {
     left: 92%;
     position: absolute;
 }
+
+/* Add @media here. /*
