@@ -151,7 +151,7 @@ body {
 }
 
 .signature-moves {
-    left: 22%;
+    left: 23%;
 }
 
 .recommended-moves {
@@ -323,7 +323,7 @@ footer {
         visibility: hidden;
     }
 
-    .signature-moves, .recommended-moves {
+    .signature-moves, .recommended-moves, footer {
         display: none;
     }
 

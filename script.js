@@ -10,7 +10,6 @@ function fetchPokemon(idx) {
 pokenav.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
         fetchPokemon(pokenav.value)
+        pokenav.value = '';
     }
 })
-
-fetchPokemon(32)
