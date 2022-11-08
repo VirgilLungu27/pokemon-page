@@ -275,7 +275,7 @@ footer {
 
     .search {
         top: 1%;
-        left: 33%;   
+        left: 28%;   
         padding: 10px;
         background-color: aliceblue;
         position: absolute;
@@ -284,6 +284,50 @@ footer {
         max-width: 180px;
         max-height: fit-content;
     }
+
+    .search input {
+        width: 160px;
+    }
+
+    .pokemon {
+        top: 7%;
+        left: 10%;
+        position: absolute;
+        max-width: fit-content;
+        scale: 0.8;
+    }
+
+    .lastpoke, .nextpoke {
+        scale: 0.7;
+        position: absolute;
+        max-width: fit-content;
+        padding: 3px;
+        top: 7%;
+        display: inline-block;
+    }
+
+    .lastpoke {
+        left: 2%;
+    }
+
+    .nextpoke {
+        left: 70%;
+    }
+
+    .lastpoke h3, .nextpoke h3 {
+        border: 0;
+        font-size: 17px;
+        margin-bottom: -14px;
+    }
+
+    .lastpoke h4, .nextpoke h4 {
+        visibility: hidden;
+    }
+
+    .signature-moves, .recommended-moves {
+        display: none;
+    }
+
 }
 
 
